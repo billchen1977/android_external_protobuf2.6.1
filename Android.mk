@@ -165,7 +165,7 @@ COMPILER_SRC_FILES :=  \
 # =======================================================
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := libprotobuf-java-nano
+LOCAL_MODULE := libprotobuf-java-nano-2.6.1
 LOCAL_MODULE_TAGS := optional
 LOCAL_SDK_VERSION := 8
 
@@ -179,7 +179,7 @@ include $(BUILD_STATIC_JAVA_LIBRARY)
 # =======================================================
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := host-libprotobuf-java-nano
+LOCAL_MODULE := host-libprotobuf-java-nano-2.6.1
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_SRC_FILES := $(call all-java-files-under, java/src/main/java/com/google/protobuf/nano)
@@ -191,7 +191,7 @@ include $(BUILD_HOST_JAVA_LIBRARY)
 # =======================================================
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := libprotobuf-java-micro
+LOCAL_MODULE := libprotobuf-java-micro-2.6.1
 LOCAL_MODULE_TAGS := optional
 LOCAL_SDK_VERSION := 8
 
@@ -204,7 +204,7 @@ include $(BUILD_STATIC_JAVA_LIBRARY)
 # =======================================================
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := host-libprotobuf-java-micro
+LOCAL_MODULE := host-libprotobuf-java-micro-2.6.1
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_SRC_FILES := $(call all-java-files-under, java/src/main/java/com/google/protobuf/micro)
@@ -216,7 +216,7 @@ include $(BUILD_HOST_JAVA_LIBRARY)
 # =======================================================
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := libprotobuf-java-lite
+LOCAL_MODULE := libprotobuf-java-lite-2.6.1
 LOCAL_MODULE_TAGS := optional
 LOCAL_SDK_VERSION := 9
 
@@ -229,7 +229,7 @@ include $(BUILD_STATIC_JAVA_LIBRARY)
 # =======================================================
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := host-libprotobuf-java-lite
+LOCAL_MODULE := host-libprotobuf-java-lite-2.6.1
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_SRC_FILES := $(JAVA_LITE_SRC_FILES)
@@ -241,7 +241,7 @@ include $(BUILD_HOST_JAVA_LIBRARY)
 # =======================================================
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := host-libprotobuf-java-full
+LOCAL_MODULE := host-libprotobuf-java-full-2.6.1
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_SRC_FILES := $(JAVA_FULL_SRC_FILES)
@@ -253,7 +253,7 @@ include $(BUILD_HOST_JAVA_LIBRARY)
 # =======================================================
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := libprotobuf-cpp-lite-ndk
+LOCAL_MODULE := libprotobuf-cpp-lite-ndk-2.6.1
 
 LOCAL_CPP_EXTENSION := .cc
 
@@ -282,7 +282,7 @@ include $(BUILD_STATIC_LIBRARY)
 # =======================================================
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := libprotobuf-cpp-lite
+LOCAL_MODULE := libprotobuf-cpp-lite-2.6.1
 
 LOCAL_CPP_EXTENSION := .cc
 
@@ -302,7 +302,7 @@ include $(BUILD_SHARED_LIBRARY)
 # =======================================================
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := libprotobuf-cpp-lite_static
+LOCAL_MODULE := libprotobuf-cpp-lite_static-2.6.1
 
 LOCAL_MODULE_HOST_OS := darwin linux windows
 
@@ -321,7 +321,7 @@ LOCAL_EXPORT_C_INCLUDE_DIRS := $(LOCAL_PATH)/src
 include $(BUILD_HOST_STATIC_LIBRARY)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libprotobuf-cpp-lite
+LOCAL_MODULE := libprotobuf-cpp-lite-2.6.1
 LOCAL_CPP_EXTENSION := .cc
 LOCAL_SRC_FILES := $(CC_LITE_SRC_FILES)
 LOCAL_C_INCLUDES := \
@@ -336,18 +336,18 @@ include $(BUILD_STATIC_LIBRARY)
 # =======================================================
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := libprotobuf-cpp-lite
+LOCAL_MODULE := libprotobuf-cpp-lite-2.6.1
 
 LOCAL_MODULE_HOST_OS := darwin linux windows
 
-LOCAL_WHOLE_STATIC_LIBRARIES := libprotobuf-cpp-lite_static
+LOCAL_WHOLE_STATIC_LIBRARIES := libprotobuf-cpp-lite_static-2.6.1
 
 LOCAL_EXPORT_C_INCLUDE_DIRS := $(LOCAL_PATH)/src
 
 include $(BUILD_HOST_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libprotobuf-cpp-lite
+LOCAL_MODULE := libprotobuf-cpp-lite-2.6.1
 LOCAL_MODULE_HOST_OS := darwin linux windows
 LOCAL_CPP_EXTENSION := .cc
 LOCAL_SRC_FILES := $(CC_LITE_SRC_FILES)
@@ -363,7 +363,7 @@ include $(BUILD_HOST_STATIC_LIBRARY)
 # =======================================================
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := libprotobuf-cpp-lite-rtti
+LOCAL_MODULE := libprotobuf-cpp-lite-rtti-2.6.1
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_CPP_EXTENSION := .cc
@@ -385,7 +385,7 @@ include $(BUILD_SHARED_LIBRARY)
 # =======================================================
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := libprotobuf-cpp-lite-rtti
+LOCAL_MODULE := libprotobuf-cpp-lite-rtti-2.6.1
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_CPP_EXTENSION := .cc
@@ -434,7 +434,7 @@ protobuf_cc_full_src_files := \
 # =======================================================
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := libprotobuf-cpp-full-ndk
+LOCAL_MODULE := libprotobuf-cpp-full-ndk-2.6.1
 LOCAL_CPP_EXTENSION := .cc
 LOCAL_SRC_FILES := $(protobuf_cc_full_src_files)
 LOCAL_C_INCLUDES := \
@@ -461,7 +461,7 @@ include $(BUILD_STATIC_LIBRARY)
 # =======================================================
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := libprotobuf-cpp-full-ndk-gnustl-rtti
+LOCAL_MODULE := libprotobuf-cpp-full-ndk-gnustl-rtti-2.6.1
 LOCAL_MODULE_TAGS := optional
 LOCAL_CPP_EXTENSION := .cc
 LOCAL_SRC_FILES := $(protobuf_cc_full_src_files)
@@ -482,7 +482,7 @@ include $(BUILD_STATIC_LIBRARY)
 # =======================================================
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := libprotobuf-cpp-full
+LOCAL_MODULE := libprotobuf-cpp-full-2.6.1
 LOCAL_MODULE_TAGS := optional
 LOCAL_CPP_EXTENSION := .cc
 LOCAL_SRC_FILES := $(protobuf_cc_full_src_files)
@@ -501,7 +501,7 @@ include $(BUILD_SHARED_LIBRARY)
 # =======================================================
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := libprotobuf-cpp-full
+LOCAL_MODULE := libprotobuf-cpp-full-2.6.1
 LOCAL_MODULE_TAGS := optional
 LOCAL_CPP_EXTENSION := .cc
 LOCAL_SRC_FILES := $(protobuf_cc_full_src_files)
@@ -520,7 +520,7 @@ include $(BUILD_HOST_SHARED_LIBRARY)
 # =======================================================
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := libprotobuf-cpp-full-rtti
+LOCAL_MODULE := libprotobuf-cpp-full-rtti-2.6.1
 LOCAL_MODULE_TAGS := optional
 LOCAL_CPP_EXTENSION := .cc
 LOCAL_SRC_FILES := $(protobuf_cc_full_src_files)
@@ -540,7 +540,7 @@ include $(BUILD_SHARED_LIBRARY)
 # =======================================================
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := libprotobuf-cpp-full-rtti
+LOCAL_MODULE := libprotobuf-cpp-full-rtti-2.6.1
 LOCAL_MODULE_TAGS := optional
 LOCAL_CPP_EXTENSION := .cc
 LOCAL_SRC_FILES := $(protobuf_cc_full_src_files)
@@ -566,7 +566,7 @@ protobuf_cc_full_src_files :=
 # =======================================================
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := aprotoc
+LOCAL_MODULE := aprotoc-2.6.1
 LOCAL_MODULE_HOST_OS := darwin linux windows
 
 # Statically link libc++ because we copy aprotoc to unbundled projects where
@@ -593,7 +593,7 @@ include $(BUILD_HOST_EXECUTABLE)
 # =======================================================
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := aprotoc-test-nano-params
+LOCAL_MODULE := aprotoc-test-nano-params-2.6.1
 LOCAL_MODULE_TAGS := tests
 LOCAL_SDK_VERSION := current
 
@@ -620,7 +620,7 @@ include $(BUILD_STATIC_JAVA_LIBRARY)
 include $(CLEAR_VARS)
 
 # Parcelable messages
-LOCAL_MODULE := android-nano-test-parcelable
+LOCAL_MODULE := android-nano-test-parcelable-2.6.1
 LOCAL_MODULE_TAGS := tests
 LOCAL_SDK_VERSION := current
 # Only needed at compile-time.
@@ -641,7 +641,7 @@ include $(BUILD_STATIC_JAVA_LIBRARY)
 include $(CLEAR_VARS)
 
 # Parcelable and extendable messages
-LOCAL_MODULE := android-nano-test-parcelable-extendable
+LOCAL_MODULE := android-nano-test-parcelable-extendable-2.6.1
 LOCAL_MODULE_TAGS := tests
 LOCAL_SDK_VERSION := current
 # Only needed at compile-time.
@@ -664,7 +664,7 @@ include $(BUILD_STATIC_JAVA_LIBRARY)
 include $(CLEAR_VARS)
 
 # Test APK
-LOCAL_PACKAGE_NAME := NanoAndroidTest
+LOCAL_PACKAGE_NAME := NanoAndroidTest-2.6.1
 
 LOCAL_SDK_VERSION := 8
 
